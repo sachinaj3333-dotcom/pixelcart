@@ -1,0 +1,32 @@
+.carousel-indicators [data-bs-target] {
+    background-color: grey !important;
+    width: 7px !important;
+    height: 7px !important;
+    border-radius: 50% !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.indicator {
+    position: absolute;
+    top: 415px;
+}
+
+
+.indicator2 {
+    position: absolute;
+    top: 330px;
+}
+
+.img_sec {
+    width: 20%;
+}
+
+
+
+
+/* dashboardsection2 */
+
+.img_section {
+    width: 20%;
+}

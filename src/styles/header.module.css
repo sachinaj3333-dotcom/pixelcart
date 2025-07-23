@@ -1,0 +1,760 @@
+
+/* NAVBAR */
+
+.nav_section {
+    text-decoration: none;
+    color: black; 
+    font-size: small;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Product Names */
+
+
+.product_type {
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0s ease-in-out;
+}
+
+
+.product_type:hover{
+    transform: scale(1.5);
+    font-weight: 600;
+}
+
+/* MEN SECTION IN NAVBAR */
+
+.product_specification{
+    text-decoration: none;
+    font-size: smaller;
+    color: #EE5F73;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+.menuitem:hover .nav_section {
+    border-bottom: 4px solid #EE5F73;
+}
+
+.sub_menu_men1 {
+    position: absolute;
+    left: 138px;
+    top: 76px;
+    padding: 20px 5px 11px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_men1>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_men1 {
+    display: block;
+}
+
+.sub_menu_men2 {
+    position: absolute;
+    left: 391px;
+    top: 76px;
+    padding: 20px 5px 23px 0px;
+    background-color: white    ;
+    display: none;
+}
+
+
+.main_menu>li:hover .sub_menu_men2 {
+    display: block;
+}
+
+
+.sub_menu_men2>ul{
+    list-style: none;
+}
+
+.sub_menu_men3 {
+    position: absolute;
+    left: 644px;
+    top: 76px;
+    padding: 20px 5px 101px 0px;
+    background-color: white;
+    display: none;
+}
+
+
+.main_menu>li:hover .sub_menu_men3 {
+    display: block;
+}
+
+
+.sub_menu_men3>ul{
+    list-style: none;
+}
+
+.sub_menu_men4 {
+    position: absolute;
+    left: 897px;
+    top: 76px;
+    padding: 20px 5px 35px 0px;
+    background-color: white;
+    display: none;
+}
+
+.main_menu>li:hover .sub_menu_men4 {
+    display: block;
+}
+
+.sub_menu_men4>ul {
+    list-style: none;
+}
+
+.sub_menu_men5 {
+    position: absolute;
+    left: 1150px;
+    top: 76px;
+    padding: 20px 5px 8px 0px;
+    background-color: white;
+    display: none;
+}   
+
+.main_menu>li:hover .sub_menu_men5 {
+    display: block;
+}
+
+.sub_menu_men5>ul {
+    list-style: none;
+}
+
+/* WOMEN SECTION IN NAVBAR */
+
+.menuitem2:hover .nav_section2 {
+    border-bottom: 4px solid #FB56C1;
+}
+
+.product_specification2{
+    text-decoration: none;
+    font-size: smaller;
+    color: #FB56C1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+
+.nav_section2 {
+    text-decoration: none;
+    color: black; 
+    font-size: small;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub_menu_women1 {
+    position: absolute;
+    left: 138px;
+    top: 76px;
+    padding: 20px 5px 55px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_women1>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_women1 {
+    display: block;
+}
+
+.sub_menu_women2 {
+    position: absolute;
+    left: 391px;
+    top: 76px;
+    padding: 20px 5px 10px 0px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_women2>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_women2 {
+    display: block;
+}
+
+.sub_menu_women3 {
+    position: absolute;
+    left: 644px;
+    top: 76px;
+    padding: 20px 5px 52px 0px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_women3>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_women3 {
+    display: block;
+}
+
+.sub_menu_women4 {
+    position: absolute;
+    left: 896px;
+    top: 76px;
+    padding: 20px 5px 58px 0px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_women4>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_women4 {
+    display: block;
+}
+
+.sub_menu_women5 {
+    position: absolute;
+    left: 1148px;
+    top: 76px;
+    padding: 20px 5px 40px 0px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_women5>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_women5 {
+    display: block;
+}
+
+/* KID SECTION IN NAVBAR */
+
+.menuitem3:hover .nav_section3 {
+    border-bottom: 4px solid #F26A10;
+}
+
+.nav_section3 {
+    text-decoration: none;
+    color: black; 
+    font-size: small;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product_specification3{
+    text-decoration: none;
+    font-size: smaller;
+    color: #F26A10;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+.sub_menu_kid1 {
+    position: absolute;
+    left: 138px;
+    top: 76px;
+    padding: 20px 5px 94px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_kid1>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_kid1 {
+    display: block;
+}
+
+.sub_menu_kid2 {
+    position: absolute;
+    left: 391px;
+    top: 76px;
+    padding: 20px 5px 46px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_kid2>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_kid2 {
+    display: block;
+}
+
+.sub_menu_kid3 {
+    position: absolute;
+    left: 644px;
+    top: 76px;
+    padding: 20px 5px 58px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_kid3>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_kid3 {
+    display: block;
+}
+
+.sub_menu_kid4 {
+    position: absolute;
+    left: 897px;
+    top: 76px;
+    padding: 20px 5px 103px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_kid4>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_kid4 {
+    display: block;
+}
+
+.sub_menu_kid5 {
+    position: absolute;
+    left: 1150px;
+    top: 76px;
+    padding: 20px 5px 10px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_kid5>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_kid5 {
+    display: block;
+}
+
+/* HOME SECTION IN NAVBAR */
+
+.menuitem4:hover .nav_section4 {
+    border-bottom: 4px solid #F2C210;
+}
+
+.nav_section4 {
+    text-decoration: none;
+    color: black; 
+    font-size: small;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product_specification4 {
+    text-decoration: none;
+    font-size: smaller;
+    color: #F2C210;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+.sub_menu_home1 {
+    position: absolute;
+    left: 138px;
+    top: 76px;
+    padding: 20px 5px 14px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_home1>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_home1 {
+    display: block;
+}
+
+
+.sub_menu_home2 {
+    position: absolute;
+    left: 391px;
+    top: 76px;
+    padding: 20px 5px 14px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_home2>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_home2 {
+    display: block;
+}
+
+
+.sub_menu_home3 {
+    position: absolute;
+    left: 644px;
+    top: 76px;
+    padding: 20px 5px 59px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_home3>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_home3 {
+    display: block;
+}
+
+
+.sub_menu_home4 {
+    position: absolute;
+    left: 897px;
+    top: 76px;
+    padding: 20px 5px 188px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_home4>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_home4 {
+    display: block;
+}
+
+
+.sub_menu_home5 {
+    position: absolute;
+    left: 1150px;
+    top: 76px;
+    padding: 20px 5px 290px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_home5>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_home5 {
+    display: block;
+}
+
+/* BEAUTY SECTION IN NAVBAR */
+
+.menuitem5:hover .nav_section5 {
+    border-bottom: 4px solid #0DB7AF;
+}
+
+.nav_section5 {
+    text-decoration: none;
+    color: black; 
+    font-size: small;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product_specification5 {
+    text-decoration: none;
+    font-size: smaller;
+    color: #0DB7AF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+
+.sub_menu_beauty1 {
+    position: absolute;
+    left: 138px;
+    top: 76px;
+    padding: 20px 5px 118px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_beauty1>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_beauty1 {
+    display: block;
+}
+
+
+.sub_menu_beauty2 {
+    position: absolute;
+    left: 391px;
+    top: 76px;
+    padding: 20px 5px 31px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_beauty2>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_beauty2 {
+    display: block;
+}
+
+
+.sub_menu_beauty3 {
+    position: absolute;
+    left: 644px;
+    top: 76px;
+    padding: 20px 5px 82px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_beauty3>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_beauty3 {
+    display: block;
+}
+
+.sub_menu_beauty4 {
+    position: absolute;
+    left: 896px;
+    top: 76px;
+    padding: 20px 5px 6px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_beauty4>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_beauty4 {
+    display: block;
+}
+
+
+.sub_menu_beauty5 {
+    position: absolute;
+    left: 1148px;
+    top: 76px;
+    padding: 20px 5px 46px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_beauty5>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_beauty5 {
+    display: block;
+}
+
+/* GENZ SECTION IN NAVBAR */
+
+.menuitem6:hover .nav_section6 {
+    border-bottom: 4px solid #0DB7AF;
+}
+
+.nav_section6 {
+    text-decoration: none;
+    color: black; 
+    font-size: small;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product_specification6 {
+    text-decoration: none;
+    font-size: smaller;
+    color: #0DB7AF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+
+.sub_menu_genz1 {
+    position: absolute;
+    left: 138px;
+    top: 76px;
+    padding: 20px 5px 80px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_genz1>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_genz1 {
+    display: block;
+}
+
+.sub_menu_genz2 {
+    position: absolute;
+    left: 391px;
+    top: 76px;
+    padding: 20px 5px 116px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_genz2>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_genz2 {
+    display: block;
+}
+
+
+.sub_menu_genz3 {
+    position: absolute;
+    left: 644px;
+    top: 76px;
+    padding: 20px 5px 68px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_genz3>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_genz3 {
+    display: block;
+}
+
+
+.sub_menu_genz4 {
+    position: absolute;
+    left: 897px;
+    top: 76px;
+    padding: 20px 5px 44px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_genz4>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_genz4 {
+    display: block;
+}
+
+.sub_menu_genz5 {
+     position: absolute;
+    left: 1150px;
+    top: 76px;
+    padding: 20px 5px 20px 15px;
+    background-color: white;
+    display: none;
+}
+
+.sub_menu_genz5>ul {
+    list-style: none;
+}
+
+.main_menu>li:hover .sub_menu_genz5 {
+    display: block;
+}
+
+/* SEARCH BAR */
+
+.searchinput {
+    width: 400px;
+}
+
+.searchinput:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+/* nav-section */
+
+
+.nav_section_profile:hover .nav_section_profile_name {
+    border-bottom: 4px solid #F16565;
+}
+
+.nav_section0{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.nav_section01 {
+    list-style: none;
+    font-size: small;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav_section01_content {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* NAV BAR PROFILE */
+
+.sub_menu_profile {
+    position: absolute;
+    left: 1220px;
+    top: 76px;
+    padding: 20px 5px 11px 15px;
+    background-color: white;
+    display: none;
+}
+
+.nav_section01>li:hover .sub_menu_profile {
+    display: block;
+}
+
+
+.btnprofile {
+    background-color: white;
+    color: #F16565;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnprofile:hover {
+    border: 2px solid #F16565;
+    transform: scale(1.05);
+}
+
+.profile_content {
+    list-style: none;
+}
+
+.product_type2 {
+    text-decoration: none;
+    color: rgb(65, 63, 63);
+    font-size: small;
+}
+
+.product_type2:hover {
+    transform: scale(2);
+    color: black;
+    font-weight: bolder;
+}
+
+.profile_content>li {
+    margin-left: -32px;
+}

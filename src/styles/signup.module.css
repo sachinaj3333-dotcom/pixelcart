@@ -1,0 +1,19 @@
+.signup_page {
+    background-color: #FDEEEA;
+}
+
+.signup_box:hover {
+    transform: scale(1.01);
+}
+
+.forminput:focus {
+    border: 1px solid black;
+    box-shadow: none !important;
+    border-color: black !important;
+    border-radius: 0;
+}
+
+.btnsubmit{
+    background-color: #FF3F6C !important;
+    color: white !important;
+}

@@ -1,0 +1,19 @@
+.signin_page {
+    background-color: #FDEFEC;
+}
+
+.signin_box:hover {
+    transform: scale(1.01);
+}
+
+.signin_input:focus {
+    border: 1px solid black;
+    box-shadow: none !important;
+    border-color: black !important;
+    border-radius: 0;
+}
+
+.submitbtn_signin {
+    background-color: #FF3F6C !important;
+    color: white !important;
+}
