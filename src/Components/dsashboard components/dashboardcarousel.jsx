@@ -5,6 +5,11 @@ import image4 from "/src/assets/images/crouselsecond.webp";
 import image5 from "/src/assets/images/crouselthird.webp";
 import { Link } from "react-router-dom";
 
+import brandimg1 from "../../assets/images/brand1.jpg";
+import brandimg2 from "../../assets/images/brand2.jpg";
+
+import bankimg from "../../assets/images/bank.webp";
+
 // second section
 
 import image6 from "/src/assets/images/dashboardtitle.webp";
@@ -28,56 +33,76 @@ import img17 from "/src/assets/images/section2.7.webp";
 import img18 from "/src/assets/images/section2.8.webp";
 import img19 from "/src/assets/images/section2.9.webp";
 import img20 from "/src/assets/images/section2.10.webp";
+import Styles from "../../styles/dashboard.module.css";
 
 
 
 const MyCarousel = () => {
     return (
         <>
-            <div id="carouselExampleAutoplaying" class="carousel slide mt-5 mb-5" data-bs-ride="carousel">
-                <div class="carousel-indicators indicator">
-                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <div className="container">
+                <div id="carouselExampleAutoplaying" class="carousel slide mt-5 mb-5" data-bs-ride="carousel">
+                    <div className="carousel-indicators indicator">
+                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <Link to={"#"}>
+                            <div class="carousel-item active">
+                                <img src={image1} class="d-block w-100" alt="img" />
+                            </div>
+                        </Link>
+                        <Link to={"#"}>
+                            <div class="carousel-item">
+                                <img src={image2} class="d-block w-100" alt="img" />
+                            </div>
+                        </Link>
+                        <Link to={"#"}>
+                            <div class="carousel-item">
+                                <img src={image3} class="d-block w-100" alt="img" />
+                            </div>
+                        </Link>
+                        <Link to={"#"}>
+                            <div class="carousel-item">
+                                <img src={image4} class="d-block w-100" alt="img" />
+                            </div>
+                        </Link>
+                        <Link to={"#"}>
+                            <div class="carousel-item">
+                                <img src={image5} class="d-block w-100" alt="img" />
+                            </div>
+                        </Link>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner">
-                    <Link to={"#"}>
-                        <div class="carousel-item active">
-                            <img src={image1} class="d-block w-100" alt="img" />
-                        </div>
-                    </Link>
-                    <Link to={"#"}>
-                        <div class="carousel-item">
-                            <img src={image2} class="d-block w-100" alt="img" />
-                        </div>
-                    </Link>
-                    <Link to={"#"}>
-                        <div class="carousel-item">
-                            <img src={image3} class="d-block w-100" alt="img" />
-                        </div>
-                    </Link>
-                    <Link to={"#"}>
-                        <div class="carousel-item">
-                            <img src={image4} class="d-block w-100" alt="img" />
-                        </div>
-                    </Link>
-                    <Link to={"#"}>
-                        <div class="carousel-item">
-                            <img src={image5} class="d-block w-100" alt="img" />
-                        </div>
-                    </Link>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
+
+
+            <div className="container">
+                <Link to={"#"}>
+                <img src={brandimg1} alt="img" width={"50%"}/>
+                </Link>
+                <Link to={"#"}>
+                <img src={brandimg2} alt="img" width={"50%"}/>
+                </Link>
+            </div>
+
+            <div className="container">
+                <Link to={"#"}>
+                    <img src={bankimg} alt="img" width={"100%"} />
+                </Link>
+            </div>
+
 
 
 

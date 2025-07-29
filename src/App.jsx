@@ -6,8 +6,7 @@ import Header from './Components/header'
 import Signup from './Components/signup'
 import { Route, Routes } from 'react-router-dom'
 import Signin from './Components/signin'
-import MyCarousel from './Components/dsashboard components/dashboardcarousel'
-import MySection from './Components/dsashboard components/dashboardsection2'
+import Dashboard from './pages/dashboard-page'
 
 function App() {
 
@@ -15,9 +14,8 @@ function App() {
   return (
     <>
       <Header/>
-      <MyCarousel/>
-      <MySection/>
       <Routes>
+        <Route path='/' element={<Dashboard/>}/>
         <Route path='/sign-up' element={<Signup/>}/>
         <Route path='/sign-in' element={<Signin/>}/>
       </Routes>

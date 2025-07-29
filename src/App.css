@@ -9,7 +9,7 @@
 
 .indicator {
     position: absolute;
-    top: 415px;
+    top: 355px;
 }
 
 
@@ -29,4 +29,18 @@
 
 .img_section {
     width: 20%;
+}
+
+.interval3 {
+    position: absolute;
+    top: 340px;
+} 
+
+.interval-wrapper{
+    overflow: visible !important;
+}
+
+/* dashboardsection3 */
+.cat_sec {
+    margin-left: 20%;
 }
