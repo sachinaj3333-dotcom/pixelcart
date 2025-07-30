@@ -7,6 +7,7 @@ import Signup from './Components/signup'
 import { Route, Routes } from 'react-router-dom'
 import Signin from './Components/signin'
 import Dashboard from './pages/dashboard-page'
+import Footer from './Components/footer'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/sign-up' element={<Signup/>}/>
         <Route path='/sign-in' element={<Signin/>}/>
       </Routes>
+      <Footer/>
     </>
   )
 }

@@ -34,13 +34,71 @@
 .interval3 {
     position: absolute;
     top: 340px;
-} 
+}
 
-.interval-wrapper{
+.interval-wrapper {
     overflow: visible !important;
 }
 
 /* dashboardsection3 */
 .cat_sec {
     margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.mainfoot {
+    background-color: #FAFBFC;
+    margin-top: 6%;
+}
+.head2name {
+    font-size: 11px;
+}
+
+.head2 {
+    border-bottom: 2px solid #EAEAEC;
+    width: 83%;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    left: 10px;
+}
+
+
+.opthead {
+    font-size: 11px;
+}
+
+footer {
+    background-color: #FAFBFC;
+}
+
+.opt {
+    text-decoration: none;
+    color: #696b79;
+    font-size: 15px;
+}
+
+
+.opt2 {
+    text-decoration: none;
+    color: #696b79;
+    font-size: 15px;
+    border-right: 1px solid #696b79;
+}
+
+.opt2_link {
+    text-decoration: none;
+}
+
+.opt3{
+    justify-content: space-between;
 }
