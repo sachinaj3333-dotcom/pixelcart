@@ -137,7 +137,7 @@ const Footer = () => {
                                 <span className="opt ms-5">In case of any consern,<Link to={"#"} className="opt2_link"><b>Contact us</b></Link></span>
                             </div>
                             <div>
-                                <span className="opt">A Demo Website</span>
+                                <span className="opt">A Demo Website, by Sachin Singh Negi</span>
                             </div>
                         </div>
 
