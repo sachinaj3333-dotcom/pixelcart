@@ -88,7 +88,7 @@ const MyCarousel = () => {
             </div>
 
 
-            <div className="container">
+            <div className="container mb-1">
                 <Link to={"#"}>
                 <img src={brandimg1} alt="img" width={"50%"}/>
                 </Link>

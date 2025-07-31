@@ -9,16 +9,16 @@ const Header = () => {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-body-white border border-bottom shadow-sm">
+            <nav className="navbar my_navbar navbar-expand-xl bg-white border border-bottom shadow-sm sticky-top">
                 <div className="container-fluid ms-5">
-                    <a className="navbar-brand" href="#">
+                    <Link className="navbar-brand" href="#">
                         <img src={logo} alt="img" height={50} />
-                    </a>
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse ms-5" id="navbarSupportedContent">
-                        <ul className={`nav nav-underline z-3 ${Styles.main_menu}`}>
+                        <ul className={`nav nav-underline z-3 me-auto ${Styles.main_menu}`}>
 
                             {/* MEN's Section */}
 
@@ -1703,6 +1703,8 @@ const Header = () => {
                             </li>
                         </ul>
 
+
+
                         <div className="searchbar d-flex border rounded-2 ms-5" role="search">
                             <button className="btn border-0" type="search">
                                 <span className="input-group-text border-0" id="visible-addon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -1711,93 +1713,94 @@ const Header = () => {
                             </button>
                             <input className={`${Styles.searchinput} me-2 border-0`} type="search" placeholder="Search for products,brands and more" aria-label="Search" />
                         </div>
-                    </div>
 
-                    <div>
-                        <div className={`${Styles.nav_section0} conatiner-fluid`}>
-                            <ul className={`${Styles.nav_section01}  d-flex mb-0`}>
-                                {
-                                    (currentPath !== "/sign-up" && currentPath !== "/sign-in") ? (
-                                        <li className={`${Styles.nav_section_profile} me-4 z-3`}>
-                                            <span className="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-                                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+
+                        <div className="navthreesections">
+                            <div className={`${Styles.nav_section0} conatiner-fluid`}>
+                                <ul className={`${Styles.nav_section01}  d-flex mb-0`}>
+                                    {
+                                        (currentPath !== "/sign-up" && currentPath !== "/sign-in") ? (
+                                            <li className={`${Styles.nav_section_profile} me-4 z-3`}>
+                                                <span className="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                                                </svg></span><br />
+                                                <span className={`${Styles.nav_section_profile_name} pb-3`}>Profile</span>
+
+                                                {/* sub menu profile */}
+
+                                                <div className={`${Styles.sub_menu_profile} col-2`}>
+                                                    <div>
+                                                        <h6 className="mb-0">Welcome</h6>
+                                                        <p>To access account and manage orders</p>
+                                                        <Link to={"/sign-in"}>
+                                                            <button className={`${Styles.btnprofile} pb-0 pt-0 me-5`}>LOGIN</button>
+                                                        </Link>
+                                                        <Link to={"/sign-up"}>
+                                                            <button className={`${Styles.btnprofile} pt-0 pb-0`}>SIGNUP</button>
+                                                        </Link>
+                                                    </div>
+                                                    <hr />
+                                                    <div>
+                                                        <ul className={`${Styles.profile_content} pb-2`}>
+                                                            <li>
+                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Orders</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Wishlist</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Gift Cards</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Contact Us</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Insider</Link>
+                                                            </li>
+                                                            <li>
+                                                                <hr />
+                                                            </li>
+                                                            <li>
+                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Coupons</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Saved Cards</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Saved VPA</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Saved Addresses</Link>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        ) : (
+                                            null
+                                        )
+                                    }
+
+
+                                    <Link className={`${Styles.nav_section01_content}`} to={"#"}>
+                                        <li className="me-4">
+                                            <span className="ms-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
                                             </svg></span><br />
-                                            <span className={`${Styles.nav_section_profile_name} pb-3`}>Profile</span>
-
-                                            {/* sub menu profile */}
-
-                                            <div className={`${Styles.sub_menu_profile} col-2`}>
-                                                <div>
-                                                    <h6 className="mb-0">Welcome</h6>
-                                                    <p>To access account and manage orders</p>
-                                                    <Link to={"/sign-in"}>
-                                                    <button className={`${Styles.btnprofile} pb-0 pt-0 me-5`}>LOGIN</button>
-                                                    </Link>
-                                                    <Link to={"/sign-up"}>
-                                                    <button className={`${Styles.btnprofile} pt-0 pb-0`}>SIGNUP</button>
-                                                    </Link>
-                                                </div>
-                                                <hr />
-                                                <div>
-                                                    <ul className={`${Styles.profile_content} pb-2`}>
-                                                        <li>
-                                                            <Link className={`${Styles.product_type2}`} to={"#"}>Orders</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link className={`${Styles.product_type2}`} to={"#"}>Wishlist</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link className={`${Styles.product_type2}`} to={"#"}>Gift Cards</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link className={`${Styles.product_type2}`} to={"#"}>Contact Us</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link className={`${Styles.product_type2}`} to={"#"}>Insider</Link>
-                                                        </li>
-                                                        <li>
-                                                            <hr />
-                                                        </li>
-                                                        <li>
-                                                            <Link className={`${Styles.product_type2}`} to={"#"}>Coupons</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link className={`${Styles.product_type2}`} to={"#"}>Saved Cards</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link className={`${Styles.product_type2}`} to={"#"}>Saved VPA</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link className={`${Styles.product_type2}`} to={"#"}>Saved Addresses</Link>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                            <span>Wishlist</span>
                                         </li>
-                                    ) : (
-                                        null
-                                    )
-                                }
+                                    </Link>
 
-
-                                <Link className={`${Styles.nav_section01_content}`} to={"#"}>
-                                    <li className="me-4">
-                                        <span className="ms-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
-                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
-                                        </svg></span><br />
-                                        <span>Wishlist</span>
-                                    </li>
-                                </Link>
-
-                                <Link className={`${Styles.nav_section01_content}`} to={"#"}>
-                                    <li className="me-5">
-                                        <span className="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                                        </svg></span><br />
-                                        <span>Bag</span>
-                                    </li>
-                                </Link>
-                            </ul>
+                                    <Link className={`${Styles.nav_section01_content}`} to={"#"}>
+                                        <li className="me-5">
+                                            <span className="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg></span><br />
+                                            <span>Bag</span>
+                                        </li>
+                                    </Link>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>

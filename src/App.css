@@ -93,6 +93,7 @@ footer {
     color: #696b79;
     font-size: 15px;
     border-right: 1px solid #696b79;
+    padding-right: 10px;
 }
 
 .opt2_link {
@@ -102,3 +103,17 @@ footer {
 .opt3{
     justify-content: space-between;
 }
+
+.abc > div{
+    text-align: justify;
+}
+
+
+.allbrandfoot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+

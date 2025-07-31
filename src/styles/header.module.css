@@ -1,6 +1,10 @@
 
 /* NAVBAR */
 
+*{
+    margin: 0;
+}
+
 .nav_section {
     text-decoration: none;
     color: black; 
@@ -673,7 +677,7 @@
 /* SEARCH BAR */
 
 .searchinput {
-    width: 400px;
+    width: calc(100vw - 1100px);
 }
 
 .searchinput:focus {
