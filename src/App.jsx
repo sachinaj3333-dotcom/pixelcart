@@ -12,35 +12,10 @@ import Mobheader from './Components/moblieheader'
 import ResponsiveNavbar from './Components/responsivenavbar'
 
 function App() {
-  // const ResponsiveNavbar = () => {
-  //   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-
-  //   useEffect(() => {
-  //     const handleResize = () => {
-  //       setIsMobile(window.innerWidth < 768);
-  //     };
-      
-  //     window.addEventListener('resize', handleResize);
-
-  //     return () => {
-  //       window.removeEventListener('resize', handleResize);
-  //     };
-  //   }, []);
-
-  //   return(
-  //     <>
-  //       {isMobile ? <Mobheader/> : <Header/>}
-  //     </>
-  //   );
-  // };
-
-
-  // export default ResponsiveNavbar;
+ 
 
   return (
     <>
-      {/* <Header/>
-      <Mobheader/> */}
       <ResponsiveNavbar/>
       <Routes>
         <Route path='/' element={<Dashboard/>}/>

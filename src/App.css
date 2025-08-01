@@ -8,14 +8,14 @@
 }
 
 .indicator {
-    position: absolute;
-    top: 355px;
+    position: relative;
+    top: 100%;
 }
 
 
 .indicator2 {
-    position: absolute;
-    top: 330px;
+    position: relative;
+    top: 100%;
 }
 
 .img_sec {
@@ -32,8 +32,8 @@
 }
 
 .interval3 {
-    position: absolute;
-    top: 340px;
+    position: relative;
+    top: 100%;
 }
 
 .interval-wrapper {

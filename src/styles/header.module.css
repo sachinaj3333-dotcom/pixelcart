@@ -1,13 +1,12 @@
-
 /* NAVBAR */
 
-*{
+* {
     margin: 0;
 }
 
 .nav_section {
     text-decoration: none;
-    color: black; 
+    color: black;
     font-size: small;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,14 +24,14 @@
 }
 
 
-.product_type:hover{
+.product_type:hover {
     transform: scale(1.5);
     font-weight: 600;
 }
 
 /* MEN SECTION IN NAVBAR */
 
-.product_specification{
+.product_specification {
     text-decoration: none;
     font-size: smaller;
     color: #EE5F73;
@@ -43,10 +42,17 @@
     border-bottom: 4px solid #EE5F73;
 }
 
+.sub_menu_men_wrapper>div {
+    /* background-color: rgb(255, 77, 0) !important; */
+    width: 20%;
+    height: 450px;
+    overflow: auto;
+}
+
 .sub_menu_men1 {
     position: absolute;
-    left: 138px;
-    top: 76px;
+    left: 9%;
+    top: 100%;
     padding: 20px 5px 11px 15px;
     background-color: white;
     display: none;
@@ -62,10 +68,10 @@
 
 .sub_menu_men2 {
     position: absolute;
-    left: 391px;
-    top: 76px;
+    left: 24%;
+    top: 100%;
     padding: 20px 5px 23px 0px;
-    background-color: white    ;
+    background-color: white;
     display: none;
 }
 
@@ -75,14 +81,14 @@
 }
 
 
-.sub_menu_men2>ul{
+.sub_menu_men2>ul {
     list-style: none;
 }
 
 .sub_menu_men3 {
     position: absolute;
-    left: 644px;
-    top: 76px;
+    left: 39%;
+    top: 100%;
     padding: 20px 5px 101px 0px;
     background-color: white;
     display: none;
@@ -94,14 +100,14 @@
 }
 
 
-.sub_menu_men3>ul{
+.sub_menu_men3>ul {
     list-style: none;
 }
 
 .sub_menu_men4 {
     position: absolute;
-    left: 897px;
-    top: 76px;
+    left: 54%;
+    top: 100%;
     padding: 20px 5px 35px 0px;
     background-color: white;
     display: none;
@@ -117,12 +123,12 @@
 
 .sub_menu_men5 {
     position: absolute;
-    left: 1150px;
-    top: 76px;
+    left: 69%;
+    top: 100%;
     padding: 20px 5px 8px 0px;
     background-color: white;
     display: none;
-}   
+}
 
 .main_menu>li:hover .sub_menu_men5 {
     display: block;
@@ -138,7 +144,7 @@
     border-bottom: 4px solid #FB56C1;
 }
 
-.product_specification2{
+.product_specification2 {
     text-decoration: none;
     font-size: smaller;
     color: #FB56C1;
@@ -148,16 +154,23 @@
 
 .nav_section2 {
     text-decoration: none;
-    color: black; 
+    color: black;
     font-size: small;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.sub_menu_women_wrapper>div {
+    /* background-color: rgb(255, 77, 0) !important; */
+    width: 20%;
+    height: 450px;
+    overflow: auto;
+}
+
 .sub_menu_women1 {
     position: absolute;
-    left: 138px;
-    top: 76px;
+    left: 9%;
+    top: 100%;
     padding: 20px 5px 55px 15px;
     background-color: white;
     display: none;
@@ -173,8 +186,8 @@
 
 .sub_menu_women2 {
     position: absolute;
-    left: 391px;
-    top: 76px;
+    left: 24%;
+    top: 100%;
     padding: 20px 5px 10px 0px;
     background-color: white;
     display: none;
@@ -190,8 +203,8 @@
 
 .sub_menu_women3 {
     position: absolute;
-    left: 644px;
-    top: 76px;
+    left: 39%;
+    top: 100%;
     padding: 20px 5px 52px 0px;
     background-color: white;
     display: none;
@@ -207,8 +220,8 @@
 
 .sub_menu_women4 {
     position: absolute;
-    left: 896px;
-    top: 76px;
+    left: 54%;
+    top: 100%;
     padding: 20px 5px 58px 0px;
     background-color: white;
     display: none;
@@ -224,8 +237,8 @@
 
 .sub_menu_women5 {
     position: absolute;
-    left: 1148px;
-    top: 76px;
+    left: 69%;
+    top: 100%;
     padding: 20px 5px 40px 0px;
     background-color: white;
     display: none;
@@ -247,23 +260,30 @@
 
 .nav_section3 {
     text-decoration: none;
-    color: black; 
+    color: black;
     font-size: small;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.product_specification3{
+.product_specification3 {
     text-decoration: none;
     font-size: smaller;
     color: #F26A10;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
 }
 
+.sub_menu_kids_wrapper>div {
+    /* background-color: rgb(255, 77, 0) !important; */
+    width: 20%;
+    height: 450px;
+    overflow: auto;
+}
+
 .sub_menu_kid1 {
     position: absolute;
-    left: 138px;
-    top: 76px;
+    left: 9%;
+    top: 100%;
     padding: 20px 5px 94px 15px;
     background-color: white;
     display: none;
@@ -279,8 +299,8 @@
 
 .sub_menu_kid2 {
     position: absolute;
-    left: 391px;
-    top: 76px;
+    left: 24%;
+    top: 100%;
     padding: 20px 5px 46px 15px;
     background-color: white;
     display: none;
@@ -296,8 +316,8 @@
 
 .sub_menu_kid3 {
     position: absolute;
-    left: 644px;
-    top: 76px;
+    left: 39%;
+    top: 100%;
     padding: 20px 5px 58px 15px;
     background-color: white;
     display: none;
@@ -313,8 +333,8 @@
 
 .sub_menu_kid4 {
     position: absolute;
-    left: 897px;
-    top: 76px;
+    left: 54%;
+    top: 100%;
     padding: 20px 5px 103px 15px;
     background-color: white;
     display: none;
@@ -330,8 +350,8 @@
 
 .sub_menu_kid5 {
     position: absolute;
-    left: 1150px;
-    top: 76px;
+    left: 69%;
+    top: 100%;
     padding: 20px 5px 10px 15px;
     background-color: white;
     display: none;
@@ -353,7 +373,7 @@
 
 .nav_section4 {
     text-decoration: none;
-    color: black; 
+    color: black;
     font-size: small;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -366,10 +386,17 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
 }
 
+.sub_menu_home_wrapper>div {
+    /* background-color: rgb(255, 77, 0) !important; */
+    width: 20%;
+    height: 450px;
+    overflow: auto;
+}
+
 .sub_menu_home1 {
     position: absolute;
-    left: 138px;
-    top: 76px;
+    left: 9%;
+    top: 100%;
     padding: 20px 5px 14px 15px;
     background-color: white;
     display: none;
@@ -386,8 +413,8 @@
 
 .sub_menu_home2 {
     position: absolute;
-    left: 391px;
-    top: 76px;
+    left: 24%;
+    top: 100%;
     padding: 20px 5px 14px 15px;
     background-color: white;
     display: none;
@@ -404,8 +431,8 @@
 
 .sub_menu_home3 {
     position: absolute;
-    left: 644px;
-    top: 76px;
+    left: 39%;
+    top: 100%;
     padding: 20px 5px 59px 15px;
     background-color: white;
     display: none;
@@ -422,8 +449,8 @@
 
 .sub_menu_home4 {
     position: absolute;
-    left: 897px;
-    top: 76px;
+    left: 54%;
+    top: 100%;
     padding: 20px 5px 188px 15px;
     background-color: white;
     display: none;
@@ -440,8 +467,8 @@
 
 .sub_menu_home5 {
     position: absolute;
-    left: 1150px;
-    top: 76px;
+    left: 69%;
+    top: 100%;
     padding: 20px 5px 290px 15px;
     background-color: white;
     display: none;
@@ -463,7 +490,7 @@
 
 .nav_section5 {
     text-decoration: none;
-    color: black; 
+    color: black;
     font-size: small;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -476,11 +503,17 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
 }
 
+.sub_menu_beauty_wrapper>div {
+    /* background-color: rgb(255, 77, 0) !important; */
+    width: 20%;
+    height: 450px;
+    overflow: auto;
+}
 
 .sub_menu_beauty1 {
     position: absolute;
-    left: 138px;
-    top: 76px;
+    left: 9%;
+    top: 100%;
     padding: 20px 5px 118px 15px;
     background-color: white;
     display: none;
@@ -497,8 +530,8 @@
 
 .sub_menu_beauty2 {
     position: absolute;
-    left: 391px;
-    top: 76px;
+    left: 24%;
+    top: 100%;
     padding: 20px 5px 31px 15px;
     background-color: white;
     display: none;
@@ -515,8 +548,8 @@
 
 .sub_menu_beauty3 {
     position: absolute;
-    left: 644px;
-    top: 76px;
+    left: 39%;
+    top: 100%;
     padding: 20px 5px 82px 15px;
     background-color: white;
     display: none;
@@ -532,8 +565,8 @@
 
 .sub_menu_beauty4 {
     position: absolute;
-    left: 896px;
-    top: 76px;
+    left: 54%;
+    top: 100%;
     padding: 20px 5px 6px 15px;
     background-color: white;
     display: none;
@@ -550,8 +583,8 @@
 
 .sub_menu_beauty5 {
     position: absolute;
-    left: 1148px;
-    top: 76px;
+    left: 69%;
+    top: 100%;
     padding: 20px 5px 46px 15px;
     background-color: white;
     display: none;
@@ -573,7 +606,7 @@
 
 .nav_section6 {
     text-decoration: none;
-    color: black; 
+    color: black;
     font-size: small;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -586,11 +619,18 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
 }
 
+.sub_menu_genz_wrapper>div {
+    /* background-color: rgb(255, 77, 0) !important; */
+    width: 20%;
+    height: 450px;
+    overflow: auto;
+}
+
 
 .sub_menu_genz1 {
     position: absolute;
-    left: 138px;
-    top: 76px;
+    left: 9%;
+    top: 100%;
     padding: 20px 5px 80px 15px;
     background-color: white;
     display: none;
@@ -606,8 +646,8 @@
 
 .sub_menu_genz2 {
     position: absolute;
-    left: 391px;
-    top: 76px;
+    left: 24%;
+    top: 100%;
     padding: 20px 5px 116px 15px;
     background-color: white;
     display: none;
@@ -624,8 +664,8 @@
 
 .sub_menu_genz3 {
     position: absolute;
-    left: 644px;
-    top: 76px;
+    left: 39%;
+    top: 100%;
     padding: 20px 5px 68px 15px;
     background-color: white;
     display: none;
@@ -642,8 +682,8 @@
 
 .sub_menu_genz4 {
     position: absolute;
-    left: 897px;
-    top: 76px;
+    left: 54%;
+    top: 100%;
     padding: 20px 5px 44px 15px;
     background-color: white;
     display: none;
@@ -658,9 +698,9 @@
 }
 
 .sub_menu_genz5 {
-     position: absolute;
-    left: 1150px;
-    top: 76px;
+    position: absolute;
+    left: 69%;
+    top: 100%;
     padding: 20px 5px 20px 15px;
     background-color: white;
     display: none;
@@ -693,7 +733,7 @@
     border-bottom: 4px solid #F16565;
 }
 
-.nav_section0{
+.nav_section0 {
     display: flex;
     justify-content: center;
     justify-items: center;
