@@ -1745,52 +1745,53 @@ const Header = () => {
                                                 <span className={`${Styles.nav_section_profile_name} pb-3`}>Profile</span>
 
                                                 {/* sub menu profile */}
-
-                                                <div className={`${Styles.sub_menu_profile} col-2`}>
-                                                    <div>
-                                                        <h6 className="mb-0">Welcome</h6>
-                                                        <p>To access account and manage orders</p>
-                                                        <Link to={"/sign-in"}>
-                                                            <button className={`${Styles.btnprofile} pb-0 pt-0 me-5`}>LOGIN</button>
-                                                        </Link>
-                                                        <Link to={"/sign-up"}>
-                                                            <button className={`${Styles.btnprofile} pt-0 pb-0`}>SIGNUP</button>
-                                                        </Link>
-                                                    </div>
-                                                    <hr />
-                                                    <div>
-                                                        <ul className={`${Styles.profile_content} pb-2`}>
-                                                            <li>
-                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Orders</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Wishlist</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Gift Cards</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Contact Us</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Insider</Link>
-                                                            </li>
-                                                            <li>
-                                                                <hr />
-                                                            </li>
-                                                            <li>
-                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Coupons</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Saved Cards</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Saved VPA</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link className={`${Styles.product_type2}`} to={"#"}>Saved Addresses</Link>
-                                                            </li>
-                                                        </ul>
+                                                <div className={`${Styles.sub_menu_profile_wrapper}`}>
+                                                    <div className={`${Styles.sub_menu_profile} col-2`}>
+                                                        <div>
+                                                            <h6 className="mb-0">Welcome</h6>
+                                                            <p>To access account and manage orders</p>
+                                                            <Link to={"/sign-in"}>
+                                                                <button className={`${Styles.btnprofile} pb-0 pt-0 me-5`}>LOGIN</button>
+                                                            </Link>
+                                                            <Link to={"/sign-up"}>
+                                                                <button className={`${Styles.btnprofile} pt-0 pb-0`}>SIGNUP</button>
+                                                            </Link>
+                                                        </div>
+                                                        <hr />
+                                                        <div>
+                                                            <ul className={`${Styles.profile_content} pb-2`}>
+                                                                <li>
+                                                                    <Link className={`${Styles.product_type2}`} to={"#"}>Orders</Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link className={`${Styles.product_type2}`} to={"#"}>Wishlist</Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link className={`${Styles.product_type2}`} to={"#"}>Gift Cards</Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link className={`${Styles.product_type2}`} to={"#"}>Contact Us</Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link className={`${Styles.product_type2}`} to={"#"}>Insider</Link>
+                                                                </li>
+                                                                <li>
+                                                                    <hr />
+                                                                </li>
+                                                                <li>
+                                                                    <Link className={`${Styles.product_type2}`} to={"#"}>Coupons</Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link className={`${Styles.product_type2}`} to={"#"}>Saved Cards</Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link className={`${Styles.product_type2}`} to={"#"}>Saved VPA</Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link className={`${Styles.product_type2}`} to={"#"}>Saved Addresses</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </li>

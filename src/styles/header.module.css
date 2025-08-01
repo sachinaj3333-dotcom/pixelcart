@@ -754,10 +754,18 @@
 
 /* NAV BAR PROFILE */
 
+
+.sub_menu_profile_wrapper>div {
+    /* background-color: rgb(255, 77, 0) !important; */
+    width: 20%;
+    height: 400px;
+    overflow: auto;
+}
+
 .sub_menu_profile {
     position: absolute;
-    left: 1220px;
-    top: 76px;
+    left: 80%;
+    top: 100%;
     padding: 20px 5px 11px 15px;
     background-color: white;
     display: none;
