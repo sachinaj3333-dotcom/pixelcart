@@ -7,7 +7,7 @@ const Mobheader = () => {
         <>
             <nav class="navbar navbar-expand-sm bg-white border border-bottom shadow-sm sticky-top">
                 <div class="container-xxl ms-5">
-                    <Link class="navbar-brand" href="#">
+                    <Link class="navbar-brand" to={"/"}>
                         <img src={weblogo} alt="logo" height={50} />
                     </Link>
                     

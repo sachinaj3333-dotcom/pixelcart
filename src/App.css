@@ -96,9 +96,6 @@ footer {
     padding-right: 10px;
 }
 
-.opt2_link {
-    text-decoration: none;
-}
 
 .opt3{
     justify-content: space-between;
@@ -117,3 +114,6 @@ footer {
 
 
 
+.opt2_link {
+    text-decoration: none;
+}

@@ -140,11 +140,13 @@ const Footer = () => {
                                     <Link to={"#"} className="opt2">Jewellery</Link>
                                     <Link to={"#"} className="opt">Designers Sarees</Link>
                                 </p><br /><br /><br />
-                                <div className="d-flex opt3 me-5 pe-5">
-                                    <div>
-                                        <span className="opt ms-5">In case of any consern,<Link to={"#"} className="opt2_link"><b>Contact us</b></Link></span>
+                                
+
+                                <div className="row">
+                                    <div className="col-10">
+                                        <span className="opt">In case of any consern,<Link to={"#"} className="opt2_link"><b>Contact us</b></Link></span>
                                     </div>
-                                    <div>
+                                    <div className="col-2 ">
                                         <span className="opt">A Demo Website, by Sachin Singh Negi</span>
                                     </div>
                                 </div>
