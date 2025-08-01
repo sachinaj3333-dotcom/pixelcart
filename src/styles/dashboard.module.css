@@ -1,0 +1,40 @@
+/* dashboard carousal  */
+
+.indicator {
+    position: relative;
+    top: 100%;
+}
+
+
+.indicator2 {
+    position: relative;
+    top: 100%;
+}
+
+.img_sec {
+    width: 20%;
+}
+
+
+/* dashboard section 2 */
+
+.interval3 {
+    position: relative;
+    top: 100%;
+}
+
+.img_section {
+    width: 20%;
+}
+
+.interval_wrapper {
+    overflow: visible !important;
+}
+
+
+/* dashboard section 3 */
+
+
+.cat_sec {
+    margin-left: 20%;
+}

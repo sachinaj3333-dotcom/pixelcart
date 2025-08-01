@@ -107,11 +107,11 @@ const Signup = () => {
                                     <input type="text" className={`${Styles.forminput} form-control`} onChange={handleName} id="name" placeholder="Enter your name" />
                                     <p className="text-danger">{nameError && nameError}</p>
                                 </div>
-                                <div class="col-md-12">
+                                <div className="col-md-12">
                                     <label for="mobno">Mobile Number</label>
-                                    <div class="input-group ">
-                                        <div class="input-group-text">+91</div>
-                                        <input type="text" class={`${Styles.forminput} form-control`} onChange={handleMobno} id="mobno" placeholder="Username" />
+                                    <div className="input-group ">
+                                        <div className="input-group-text">+91</div>
+                                        <input type="text" className={`${Styles.forminput} form-control`} onChange={handleMobno} id="mobno" placeholder="Username" />
                                     </div>
                                     <p className="text-danger">{mobnoError && mobnoError}</p>
                                 </div>
@@ -126,15 +126,15 @@ const Signup = () => {
                                     <input type="password" className={`${Styles.forminput} form-control`} onChange={handlePassword} id="password" />
                                     <p className="text-danger">{passwordError && passwordError}</p>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="confirm"  checked={isChecked} onChange={(e) => setIsChecked(e.target.checked)} id="checkDefault"/>
-                                        <label class="form-check-label" for="checkDefault">
+                                <div className="form-check">
+                                    <input className="form-check-input" type="checkbox" name="confirm"  checked={isChecked} onChange={(e) => setIsChecked(e.target.checked)} id="checkDefault"/>
+                                        <label className="form-check-label" for="checkDefault">
                                             I am above 18 years old.
                                         </label>
                                         <p className="text-danger">{checkError && checkError}</p>
                                 </div>
-                                <div class="col-12">
-                                    <button type="submit" class={`${Styles.btnsubmit} btn w-100`}>SIGN UP</button>
+                                <div className="col-12">
+                                    <button type="submit" className={`${Styles.btnsubmit} btn w-100`}>SIGN UP</button>
                                 </div>
 
                             </form>

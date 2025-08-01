@@ -34,6 +34,7 @@ import cat32 from "/src/assets/images/category32.webp";
 import cat33 from "/src/assets/images/category33.webp";
 import webad from "/src/assets/images/pixelcartmainad.jpg";
 import { Link } from "react-router-dom";
+import Styles from "../../styles/dashboard.module.css";
 
 
 const MySection2 = () => {
@@ -144,7 +145,7 @@ const MySection2 = () => {
                     </div>
                     <div>
                         <Link to={"#"}>
-                        <img src={cat31} alt="img" className="cat_sec" width={"20%"}/>
+                        <img src={cat31} alt="img" className={`${Styles.cat_sec}`} width={"20%"}/>
                         </Link>
                         <Link to={"#"}>
                         <img src={cat32} alt="img" width={"20%"}/>

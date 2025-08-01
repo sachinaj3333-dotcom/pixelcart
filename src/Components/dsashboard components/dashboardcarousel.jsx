@@ -41,48 +41,48 @@ const MyCarousel = () => {
     return (
         <>
             <div className="container">
-                <div id="carouselExampleAutoplaying" class="carousel slide mt-5 mb-5" data-bs-ride="carousel">
-                    <div className="carousel-indicators indicator">
-                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <div id="carouselExampleAutoplaying" className="carousel slide mt-5 mb-5" data-bs-ride="carousel">
+                    <div className={`carousel-indicators ${Styles.indicator}`}>
+                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
                         <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
                     </div>
-                    <div class="carousel-inner">
+                    <div className="carousel-inner">
                         <Link to={"#"}>
-                            <div class="carousel-item active">
-                                <img src={image1} class="d-block w-100" alt="img" />
+                            <div className="carousel-item active">
+                                <img src={image1} className="d-block w-100" alt="img" />
                             </div>
                         </Link>
                         <Link to={"#"}>
-                            <div class="carousel-item">
-                                <img src={image2} class="d-block w-100" alt="img" />
+                            <div className="carousel-item">
+                                <img src={image2} className="d-block w-100" alt="img" />
                             </div>
                         </Link>
                         <Link to={"#"}>
-                            <div class="carousel-item">
-                                <img src={image3} class="d-block w-100" alt="img" />
+                            <div className="carousel-item">
+                                <img src={image3} className="d-block w-100" alt="img" />
                             </div>
                         </Link>
                         <Link to={"#"}>
-                            <div class="carousel-item">
-                                <img src={image4} class="d-block w-100" alt="img" />
+                            <div className="carousel-item">
+                                <img src={image4} className="d-block w-100" alt="img" />
                             </div>
                         </Link>
                         <Link to={"#"}>
-                            <div class="carousel-item">
-                                <img src={image5} class="d-block w-100" alt="img" />
+                            <div className="carousel-item">
+                                <img src={image5} className="d-block w-100" alt="img" />
                             </div>
                         </Link>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
                     </button>
                 </div>
             </div>
@@ -114,80 +114,80 @@ const MyCarousel = () => {
                 <div className="container">
                     <img src={image6} alt="img" width={"100%"} className="mb-3" />
 
-                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators indicator2">
-                            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+                        <div className={`carousel-indicators ${Styles.indicator2}`}>
+                            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
                             <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 4"></button>
                         </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="3000">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active" data-bs-interval="3000">
                                 <Link to={"#"}>
-                                    <img src={img1} class="img_sec" alt="img" />
+                                    <img src={img1} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                    <img src={img2} class="img_sec" alt="img" />
+                                    <img src={img2} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                    <img src={img3} class="img_sec" alt="img" />
+                                    <img src={img3} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                    <img src={img4} class="img_sec" alt="img" />
+                                    <img src={img4} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                    <img src={img5} class="img_sec" alt="img" />
-                                </Link>
-                            </div>
-                            <div class="carousel-item " data-bs-interval="3000">
-                                <Link to={"#"}>
-                                    <img src={img6} class="img_sec" alt="img" />
-                                </Link>
-                                <Link to={"#"}>
-                                    <img src={img7} class="img_sec" alt="img" />
-                                </Link>
-                                <Link to={"#"}>
-                                    <img src={img8} class="img_sec" alt="img" />
-                                </Link>
-                                <Link to={"#"}>
-                                    <img src={img9} class="img_sec" alt="img" />
-                                </Link>
-                                <Link to={"#"}>
-                                    <img src={img10} class="img_sec" alt="img" />
+                                    <img src={img5} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                             </div>
-                            <div class="carousel-item " data-bs-interval="3000">
+                            <div className="carousel-item " data-bs-interval="3000">
                                 <Link to={"#"}>
-                                    <img src={img11} class="img_sec" alt="img" />
+                                    <img src={img6} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                    <img src={img12} class="img_sec" alt="img" />
+                                    <img src={img7} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                    <img src={img13} class="img_sec" alt="img" />
+                                    <img src={img8} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                    <img src={img14} class="img_sec" alt="img" />
+                                    <img src={img9} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                    <img src={img15} class="img_sec" alt="img" />
+                                    <img src={img10} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                             </div>
-                            <div class="carousel-item " data-bs-interval="3000">
+                            <div className="carousel-item " data-bs-interval="3000">
                                 <Link to={"#"}>
-                                    <img src={img16} class="img_sec" alt="img" />
+                                    <img src={img11} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                    <img src={img17} class="img_sec" alt="img" />
+                                    <img src={img12} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                    <img src={img18} class="img_sec" alt="img" />
+                                    <img src={img13} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                    <img src={img19} class="img_sec" alt="img" />
+                                    <img src={img14} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                    <img src={img20} class="img_sec" alt="img" />
+                                    <img src={img15} className={`${Styles.img_sec}`} alt="img" />
+                                </Link>
+                            </div>
+                            <div className="carousel-item " data-bs-interval="3000">
+                                <Link to={"#"}>
+                                    <img src={img16} className={`${Styles.img_sec}`} alt="img" />
+                                </Link>
+                                <Link to={"#"}>
+                                    <img src={img17} className={`${Styles.img_sec}`} alt="img" />
+                                </Link>
+                                <Link to={"#"}>
+                                    <img src={img18} className={`${Styles.img_sec}`} alt="img" />
+                                </Link>
+                                <Link to={"#"}>
+                                    <img src={img19} className={`${Styles.img_sec}`} alt="img" />
+                                </Link>
+                                <Link to={"#"}>
+                                    <img src={img20} className={`${Styles.img_sec}`} alt="img" />
                                 </Link>
                             </div>
                         </div>

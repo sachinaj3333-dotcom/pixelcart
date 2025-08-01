@@ -20,6 +20,7 @@ import secimage18 from "/src/assets/images/sec4.8.webp";
 import secimage19 from "/src/assets/images/sec4.9.webp";
 import secimage20 from "/src/assets/images/sec4.10.webp";
 import { Link } from "react-router-dom";
+import Styles from "../../styles/dashboard.module.css";
 
 
 const MySection = () => {
@@ -29,90 +30,90 @@ const MySection = () => {
                 <div className="container">
                     <img src={secimage} alt="img" width={"100%"} />
 
-                    <div id="carouselExampleInterval1" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner interval-wrapper mt-2">
-                            <div class="carousel-indicators interval3">
-                                <button type="button" data-bs-target="#carouselExampleInterval1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <div id="carouselExampleInterval1" className="carousel slide" data-bs-ride="carousel">
+                        <div className={`carousel-inner ${Styles.interval_wrapper} mt-2`}>
+                            <div className={`carousel-indicators ${Styles.interval3}`}>
+                                <button type="button" data-bs-target="#carouselExampleInterval1" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleInterval1" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 <button type="button" data-bs-target="#carouselExampleInterval1" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 <button type="button" data-bs-target="#carouselExampleInterval1" data-bs-slide-to="3" aria-label="Slide 4"></button>
                             </div>
-                            <div class="carousel-item active" data-bs-interval="3000">
+                            <div className="carousel-item active" data-bs-interval="3000">
                                 <Link to={"#"}>
-                                <img src={secimage1} class="img_section" alt="img" />
+                                    <img src={secimage1} className={`${Styles.img_section}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                <img src={secimage2} class="img_section" alt="img" />
+                                    <img src={secimage2} className={`${Styles.img_section}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                <img src={secimage3} class="img_section" alt="img" />
+                                    <img src={secimage3} className={`${Styles.img_section}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                <img src={secimage4} class="img_section" alt="img" />
+                                    <img src={secimage4} className={`${Styles.img_section}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                <img src={secimage5} class="img_section" alt="img" />
-                                </Link>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="3000">
-                                <Link to={"#"}>
-                                <img src={secimage6} class="img_section" alt="img" />
-                                </Link>
-                                <Link to={"#"}>
-                                <img src={secimage7} class="img_section" alt="img" />
-                                </Link>
-                                <Link to={"#"}>
-                                <img src={secimage8} class="img_section" alt="img" />
-                                </Link>
-                                <Link to={"#"}>
-                                <img src={secimage9} class="img_section" alt="img" />
-                                </Link>
-                                <Link to={"#"}>
-                                <img src={secimage10} class="img_section" alt="img" />
+                                    <img src={secimage5} className={`${Styles.img_section}`} alt="img" />
                                 </Link>
                             </div>
-                            <div class="carousel-item" data-bs-interval="3000">
+                            <div className="carousel-item" data-bs-interval="3000">
                                 <Link to={"#"}>
-                                <img src={secimage11} class="img_section" alt="img" />
+                                    <img src={secimage6} className={`${Styles.img_section}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                <img src={secimage12} class="img_section" alt="img" />
+                                    <img src={secimage7} className={`${Styles.img_section}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                <img src={secimage13} class="img_section" alt="img" />
-                                </Link>
-                                <Link to={"#"}> 
-                                <img src={secimage14} class="img_section" alt="img" />
+                                    <img src={secimage8} className={`${Styles.img_section}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                <img src={secimage15} class="img_section" alt="img" />
+                                    <img src={secimage9} className={`${Styles.img_section}`} alt="img" />
+                                </Link>
+                                <Link to={"#"}>
+                                    <img src={secimage10} className={`${Styles.img_section}`} alt="img" />
                                 </Link>
                             </div>
-                            <div class="carousel-item" data-bs-interval="3000">
+                            <div className="carousel-item" data-bs-interval="3000">
                                 <Link to={"#"}>
-                                <img src={secimage16} class="img_section" alt="img" />
+                                    <img src={secimage11} className={`${Styles.img_section}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                <img src={secimage17} class="img_section" alt="img" />
+                                    <img src={secimage12} className={`${Styles.img_section}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                <img src={secimage18} class="img_section" alt="img" />
+                                    <img src={secimage13} className={`${Styles.img_section}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                <img src={secimage19} class="img_section" alt="img" />
+                                    <img src={secimage14} className={`${Styles.img_section}`} alt="img" />
                                 </Link>
                                 <Link to={"#"}>
-                                <img src={secimage20} class="img_section" alt="img" />
+                                    <img src={secimage15} className={`${Styles.img_section}`} alt="img" />
+                                </Link>
+                            </div>
+                            <div className="carousel-item" data-bs-interval="3000">
+                                <Link to={"#"}>
+                                    <img src={secimage16} className={`${Styles.img_section}`} alt="img" />
+                                </Link>
+                                <Link to={"#"}>
+                                    <img src={secimage17} className={`${Styles.img_section}`} alt="img" />
+                                </Link>
+                                <Link to={"#"}>
+                                    <img src={secimage18} className={`${Styles.img_section}`} alt="img" />
+                                </Link>
+                                <Link to={"#"}>
+                                    <img src={secimage19} className={`${Styles.img_section}`} alt="img" />
+                                </Link>
+                                <Link to={"#"}>
+                                    <img src={secimage20} className={`${Styles.img_section}`} alt="img" />
                                 </Link>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval1" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval1" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval1" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval1" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
                         </button>
                     </div>
                 </div>
